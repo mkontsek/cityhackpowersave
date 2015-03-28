@@ -1,0 +1,11 @@
+applications:
+- services:
+  - cityhackpowersave-cloudantNoSQLDB
+  - cityhackpowersave-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: cityhackpowersave
+  name: cityhackpowersave
+  path: cityhackpowersave.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
